@@ -1,4 +1,4 @@
-package Decorator;
+
 
 public class EncryptionDecorator extends DataSourceDecorator {
     public EncryptionDecorator(DataSource source) {

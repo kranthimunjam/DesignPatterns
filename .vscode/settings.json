@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "state/src",
+        "state",
+        "specification/src",
+        "misc",
+        "Decorator",
+        "adapter"
+    ]
+}

@@ -1,5 +1,3 @@
-package Decorator;
-
 public class CompressionDecorator extends DataSourceDecorator {
     public CompressionDecorator(DataSource source) {
         super(source);

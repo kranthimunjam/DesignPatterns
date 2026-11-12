@@ -1,5 +1,3 @@
-package Decorator;
-
 public class FileDataSource implements DataSource {
     private String filename;
 
