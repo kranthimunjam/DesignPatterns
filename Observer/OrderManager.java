@@ -1,7 +1,7 @@
-package Observer;
 
 import java.util.ArrayList;
 import java.util.List;
+
 // Ideally this would be implementing an interface like Subject, 
 // but for simplicity, we are directly using it as the subject in this example.
 
@@ -18,7 +18,6 @@ public class OrderManager {
     }
 
     public void placeOrder(String orderDetails) {
-        System.out.println("Order placed: " + orderDetails);
         orders.add(orderDetails);
         notifySubscribers("New order placed: " + orderDetails);
     }

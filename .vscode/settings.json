@@ -4,7 +4,7 @@
         "state",
         "specification/src",
         "misc",
-        "Decorator",
-        "adapter"
+        "adapter",
+        "observer"
     ]
 }
