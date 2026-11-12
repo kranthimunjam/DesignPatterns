@@ -1,3 +1,4 @@
+package v1;
 
 public class NotificationService implements Subscriber {
     // We need a reference to the OrderManager to subscribe to it and receive notifications 
