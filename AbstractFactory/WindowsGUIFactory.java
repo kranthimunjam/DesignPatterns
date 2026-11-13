@@ -1,6 +1,5 @@
-package AbstractFactory;
 
-public class WindowsFactory implements GUIFactory {
+public class WindowsGUIFactory implements GUIFactory {
     @Override
     public Button createButton() {
         return new WindowsButton();
@@ -10,5 +9,4 @@ public class WindowsFactory implements GUIFactory {
     public Checkbox createCheckbox() {
         return new WindowsCheckbox();
     }
-    
 }

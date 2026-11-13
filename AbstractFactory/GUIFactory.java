@@ -1,4 +1,4 @@
-package AbstractFactory;
+
 
 public interface GUIFactory {
 

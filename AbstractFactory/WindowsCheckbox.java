@@ -1,4 +1,3 @@
-package AbstractFactory;
 
 public class WindowsCheckbox implements Checkbox {
     @Override

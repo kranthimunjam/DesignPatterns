@@ -1,4 +1,3 @@
-package AbstractFactory;
 
 // client code, which uses the abstract factory to create UI components without being concerned about the specific platform.
 public class App {

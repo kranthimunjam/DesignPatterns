@@ -4,6 +4,7 @@
         "observer",
         "decorator",
         "adapter",
-        "SimpleFactory"
+        "SimpleFactory",
+        "AbstractFactory"
     ]
 }
