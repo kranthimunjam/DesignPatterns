@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "specification/src",
         "observer",
+        "decorator",
         "adapter",
-        "decorator"
+        "SimpleFactory"
     ]
 }
