@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 // the interface for building different parts of the car.
 public interface CarBuilder {

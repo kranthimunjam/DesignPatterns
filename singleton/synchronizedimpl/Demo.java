@@ -1,4 +1,4 @@
-package synchronizedimpl;
+package singleton.synchronizedimpl;
 
 public class Demo {
     public static void main(String[] args) { 
@@ -12,11 +12,21 @@ public class Demo {
             System.out.println("Thread 2: " + singleton2);
         });
 
+        // log time before starting the threads
+        long startTime = System.currentTimeMillis();
+
         thread1.start();
         thread2.start();
 
-        // output:
-        // Thread 1: synchronizedimpl.SynchronizedSingleton@15db9742
-        // Thread 2: synchronizedimpl.SynchronizedSingleton@15db9742
+        
+        // wait for both threads to finish
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("Time taken: " + (endTime - startTime) + " ms");
     }
 }

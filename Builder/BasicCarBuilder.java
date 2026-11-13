@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 public class BasicCarBuilder implements CarBuilder {
     private String carType;

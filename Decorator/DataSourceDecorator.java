@@ -1,3 +1,5 @@
+package decorator;
+
 // Why is this class abstract? 
 // Because it provides a base implementation for the DataSource interface, but it is not meant to be instantiated on its own. 
 // It serves as a foundation for concrete decorators that will extend its functionality by overriding the writeData and readData methods.

@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 // The actual product builder is helping use to build is Car. 
 public class Car {

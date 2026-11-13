@@ -1,4 +1,5 @@
-package navieImpl;
+package singleton.naiveimpl;
+
 public class NaiveSingleton {
     private static NaiveSingleton instance;
 

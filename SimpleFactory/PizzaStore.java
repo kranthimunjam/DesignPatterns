@@ -1,3 +1,5 @@
+package simplefactory;
+
 public class PizzaStore {
     SimplePizzaFactory factory;
 

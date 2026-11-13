@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 // Defines the order of building the car. It uses the CarBuilder interface to build the car step by step.
 // It may not know the details of how the car is built, but it knows the sequence of building steps.

@@ -1,3 +1,5 @@
+package simplefactory;
+
 public interface Pizza {
     void prepare();
     void bake();

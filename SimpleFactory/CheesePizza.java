@@ -1,3 +1,5 @@
+package simplefactory;
+
 public class CheesePizza implements Pizza {
     @Override
     public void prepare() {

@@ -1,4 +1,5 @@
-package v1;
+package observer.v1; 
+
 public class WarehouseService implements Subscriber {
     // We need a reference to the OrderManager to subscribe to it and receive notifications
     // and later unsubscribe if needed.

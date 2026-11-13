@@ -1,3 +1,4 @@
+package abstractfactory;
 
 public class MacGUIFactory implements GUIFactory {
     @Override

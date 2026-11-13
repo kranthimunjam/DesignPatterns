@@ -1,4 +1,4 @@
-package v1;
+package observer.v1;
 
 
 public interface Subscriber {

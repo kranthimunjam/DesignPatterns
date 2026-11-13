@@ -1,3 +1,5 @@
+package simplefactory;
+
 public class SimplePizzaFactory {
     public Pizza createPizza(PizzaType type) {
         Pizza pizza = null;

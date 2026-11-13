@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 /**
  * Order class. Doesn't know the concrete payment method (strategy) user has
