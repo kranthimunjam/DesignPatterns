@@ -1,15 +1,15 @@
 package strategy;
 
 /**
- * Order class. Doesn't know the concrete payment method (strategy) user has
+ * OrderManager class. Doesn't know the concrete payment method (strategy) user has
  * picked. It uses common strategy interface to delegate collecting payment data
  * to strategy object. It can be used to save order to database.
  */
-public class Order {
+public class OrderManager {
     private int amount;
     private PaymentStrategy paymentStrategy;
 
-    public Order(int amount) {
+    public OrderManager(int amount) {
         this.amount = amount;
     }
 
