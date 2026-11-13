@@ -20,7 +20,6 @@ public class EncryptionDecorator extends DataSourceDecorator {
     }
 
     // private methods to handle encryption and decryption logic;
-
     private String encrypt(String data) {
         // Simple encryption logic (for demonstration)
         return new StringBuilder(data).reverse().toString();
